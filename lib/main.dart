@@ -14,11 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white30),
         useMaterial3: true,
       ),
-      home:const HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
-
